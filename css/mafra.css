@@ -89,6 +89,19 @@ header{
     overflow: hidden;
     
 }
+.container{
+    position: relative;
+    display: flex;
+    margin-left: -10%;
+}
+.slider{
+    width: 30vw;
+    height: 55vh;
+    box-shadow: 10px 10px 20px black;
+    margin: 5rem auto;
+    overflow: hidden;
+    
+}
 .slides{
     display: grid;
     grid-template-columns: repeat(4,100%);
