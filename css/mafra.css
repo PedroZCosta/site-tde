@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+
+    line-height: 2;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+/*cabeçalho*/
+header{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 10px black;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+.nav-item {
+   margin: 0 15px; 
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.45rem;
+    font-size: 400;
+    padding: 20px;
+    color: rgb(115, 115, 115);
+}
+ .nav-link:hover {
+    color: black;
+    background-color: #04477374;
+    transition-duration: 500ms;
+    border-radius: 5px;
+    font-size: 150%;
+    padding: 5px 20px;
+}
+/*titulo*/
+.title{
+    background-color: #026c87;
+    display: flex;
+    width: 50%;
+}
+
+.conteudo h1{
+    margin-top: 14%;
+    width: 100%;
+    border-radius: 30px 3px 30px;
+    background-color: #026c87;
+    box-shadow: 3px 5px 5px black;
+    height: 100px;
+    margin-left: -115%;
+    text-align:  center;
+}
+.conteudo p{
+    margin-top: 10%;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    height: 350px;
+    margin-left: -115%;
+    width: 500px;
+    box-shadow: 3px 3px 3px rgb(200, 199, 199);
+    padding: 20px 30px 10px;
+    
+}
+.container{
+    position: relative;
+    display: flex;
+    margin-left: -30%;
+}
+.slider{
+    width: 30vw;
+    height: 55vh;
+    box-shadow: 10px 10px 20px black;
+    margin: 5rem auto;
+    overflow: hidden;
+    
+}
+.slides{
+    display: grid;
+    grid-template-columns: repeat(4,100%);
+    height: 100%;
+    width: 100%;
+}
+#slider-img-1{
+    background-image: url(../img/guilher6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#slider-img-2{
+    background-image: url(../img/guilherme2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ #slider-img-3{
+    background-image: url(../img/guilherme3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#slider-img-4{
+    background-image: url(../img/guilherme1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.button {
+    background-color: #000000;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 8px;
+}
+.button-holder{
+    position: absolute;
+    margin-left: 35.9%;
+    bottom: 12%;
+    border: 2.8px solid #000000;
+    background-color: #6e6e6e6e;
+    border-radius: 40px;
+    height: 30px;
+    
+}
+.button:hover {
+    background-color: #868686;
+}
+footer {
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    min-height: 250px;
+    background-color: #026c87;
+    display: flex;
+}
+footer h2 {
+    color: white;
+}
+.box{
+    width: 100%;
+    padding: 20px;
+    margin-left: 0%;
+}
+.box ul {
+    width: 400px;
+    list-style: none;
+}
+.box a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
