@@ -79,7 +79,7 @@ header{
 .container{
     position: relative;
     display: flex;
-    margin-left: 20%;
+    margin-left: -20%;
 }
 .slider{
     width: 30vw;
@@ -125,7 +125,7 @@ header{
 }
 .button-holder{
     position: absolute;
-    margin-left: 20%;
+    margin-left: -20%;
     bottom: 15%;
     border: 2.8px solid #000000;
     background-color: #6e6e6e6e;
