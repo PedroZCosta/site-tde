@@ -125,7 +125,7 @@ header{
 }
 .button-holder{
     position: absolute;
-    margin-left: -27.5%;
+    margin-left: 27.5%;
     bottom: 15%;
     border: 2.8px solid #000000;
     background-color: #6e6e6e6e;
