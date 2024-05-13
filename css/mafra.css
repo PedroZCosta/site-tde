@@ -79,7 +79,7 @@ header{
 .container{
     position: relative;
     display: flex;
-    margin-left: 20%;
+    margin-left: -10%;
 }
 .slider{
     width: 30vw;
